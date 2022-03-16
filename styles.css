@@ -203,7 +203,13 @@ body{
     }
     .accordion_wrap ul li.active .accordion_menu {
 	    overflow: auto;
-	}
+    }
+    .accordion_menu .view_more {
+	    width: 70px;
+    }
+    .accordion_menu .inner_am {
+	    padding: 5px;
+    }
 }
 @media screen and (max-width: 375px) {
 	.accordion_wrap .accordion_item:hover, .accordion_wrap li.active .accordion_item {
